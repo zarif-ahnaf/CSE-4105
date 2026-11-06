@@ -1,0 +1,20 @@
+[project]
+name = "arima-assignment"
+version = "0.1.0"
+description = "CSE 4105 assignment: impact of transformations in modeling and forecasting with ARIMA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy<2",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.2",
+    "nbconvert>=7.16",
+    "ipykernel>=6.29",
+    "nbclient>=0.10",
+    "black>=26.10.1",
+]
